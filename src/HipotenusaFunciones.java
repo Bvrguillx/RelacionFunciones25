@@ -7,9 +7,9 @@ public class HipotenusaFunciones {
 		// Programa lea la longitud de los catetos de un triángulo rectángulo y 
 		// calcule la longitud de la hipotenusa según el teorema de Pitágoras.
 		
-		double Hipotenusa = Math.sqrt((LeerCateto1(0))+(LeerCateto2(0)));
+		double hipotenusa = Math.sqrt((LeerCateto1(0))+(LeerCateto2(0)));
 		
-		System.out.print("El valor de la HIPOTENUSA es: "+Hipotenusa);
+		System.out.print("El valor de la HIPOTENUSA es: "+hipotenusa);
 		
 	}
 
