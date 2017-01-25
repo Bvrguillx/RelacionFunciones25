@@ -11,13 +11,13 @@ public class HipotenusaFunciones {
 		
 		double Hipotenusa = Math.sqrt((LeerCateto1(0))+(LeerCateto2(0)));
 		
-		System.out.print("El valor de la HIPOTENUSA es: "+Hipotenusa);
+		System.out.print("El valor de la HIPOTENUSA es: "+Hipotenusa+" CMs");
 		
 	}
 
 	public static float LeerCateto1(float Cateto){
         
-		System.out.print("Introduzca el valor del 1er CATETO: ");
+		System.out.print("Introduzca el valor del 1er CATETO en CM: ");
 		@SuppressWarnings("resource")
 		Scanner Teclado = new Scanner(System.in);
 		float Cateto1 = Teclado.nextFloat();
@@ -28,7 +28,8 @@ public class HipotenusaFunciones {
 	
 	public static float LeerCateto2(float Cateto){
         
-		System.out.print("Introduzca el valor del 2do CATETO: ");
+		System.out.print("Introduzca el valor del 2do CATETO en CM: ");
+		@SuppressWarnings("resource")
 		Scanner Teclado = new Scanner(System.in);
 		float Cateto2 = Teclado.nextFloat();
 		Cateto2 = (Cateto2*Cateto2);
