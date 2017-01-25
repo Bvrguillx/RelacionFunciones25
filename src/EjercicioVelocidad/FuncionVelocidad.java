@@ -1,3 +1,5 @@
+package EjercicioVelocidad;
+
 import java.util.Scanner;
 
 public class FuncionVelocidad {

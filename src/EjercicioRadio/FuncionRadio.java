@@ -1,3 +1,5 @@
+package EjercicioRadio;
+
 import java.util.Scanner;
 
 public class FuncionRadio {

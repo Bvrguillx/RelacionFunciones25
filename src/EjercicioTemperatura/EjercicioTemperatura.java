@@ -1,3 +1,4 @@
+package EjercicioTemperatura;
 
 public class EjercicioTemperatura {
 

@@ -1,3 +1,5 @@
+package EjercicioTemperatura;
+
 import java.util.Scanner;
 
 public class EjercicioTemperatura2 {
