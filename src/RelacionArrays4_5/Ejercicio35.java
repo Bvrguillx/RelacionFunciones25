@@ -12,8 +12,14 @@ public class Ejercicio35 {
 
 	}
 	
-	public static int[] Elimina1ElementoArray(){
+	public static int[] Elimina1ElementoArray( int[]ArrayEnteros, int ValorEntero ){
 		
-	}
+		int [] Array = {5,10,15,20,25,30};
+		
+		int Valor = 10;
+		
+		return ArrayEnteros;
+		
+	} 
 
 }
