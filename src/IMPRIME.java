@@ -10,9 +10,11 @@ public class IMPRIME {
 			System.out.print("[ ");
 			
 			for (i=0;i<Array.length-1;i++){
+				
 				System.out.print(Array[i] + "\t ");
-			} System.out.println(Array[i] + " ]");
+			} 
 			
+			System.out.println(Array[i] + " ]");
 			
 		}	
 

@@ -31,6 +31,7 @@ public class Ejercicio31 {
 			{
 				ArrayCC[i] = arrayA[i];
 			}
+			
 			for(int i = ArrayCC.length-1; i>arrayA.length-1; i--)
 			{
 				ArrayCC[i] = arrayB[i-arrayA.length];
@@ -47,10 +48,12 @@ public class Ejercicio31 {
 			System.out.print("[ ");
 			
 			for (i=0;i<Array.length-1;i++){
+				
 				System.out.print(Array[i] + "\t ");
-			} System.out.println(Array[i] + " ]");
+			} 
 			
-			
+			System.out.println(Array[i] + " ]");
+					
 		}	
 
 }
