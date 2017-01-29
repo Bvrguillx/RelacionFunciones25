@@ -16,7 +16,7 @@ public class Ejercicio33 {
 		int Valor = 26;
 		int Posicion = 3;
 		
-		int []Array2 = InsertarEnArray(Array1, Valor, Posicion);
+		int [] Array2 = InsertarEnArray(Array1, Valor, Posicion);
 		
 		Imprime(Array2);
 		
@@ -25,10 +25,8 @@ public class Ejercicio33 {
 		public static int [] InsertarEnArray ( int[] ArrayA , int val , int ind ){
 			
 			int []Array1 = new int [ArrayA.length+1];
-			
 			int Contador = 0;
-			
-			for ( int i = 0; i<ArrayA.length; i++){
+			for ( int i = 0; i<Array1.length; i++){
 				if (i == ind){
 				Array1[i] = val;
 				}
@@ -37,21 +35,16 @@ public class Ejercicio33 {
 					Contador++;
 				}
 			}
-			
 			return Array1;
 		}
 		
 		public static void Imprime(int[] Array)
 		{
 			int i;
-			
 			System.out.print("[ ");
-			
 			for (i=0;i<Array.length-1;i++){
 				System.out.print(Array[i] + "\t ");
 			} System.out.println(Array[i] + " ]");
-			
-			
 		}	
 		
 	}
